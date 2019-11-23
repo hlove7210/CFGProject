@@ -5,20 +5,8 @@ body {
   color: #5a5a5a;
   padding-left: 20rem;
   font: "Muli";
+  padding-top: 30px;
 }
-
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
@@ -29,6 +17,7 @@ body {
   line-height: 1;
   letter-spacing: -.05rem;
 }
+
 img {
   padding-right: : 20px;
 }
