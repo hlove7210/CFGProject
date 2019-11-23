@@ -26,8 +26,7 @@ h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #000000;
-  text-align: center;
+  color: #343a40;
 }
 
 h1 {
@@ -165,8 +164,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color: #000000 !important;
-  text-align: center;
+  color: #BD5D38 !important;
 }
 
 a {
