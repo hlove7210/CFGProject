@@ -176,3 +176,9 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.image1 {
+  display: block;
+  width: 550px;
+  margin: auto;
+}
