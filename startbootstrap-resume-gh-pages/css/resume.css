@@ -33,6 +33,8 @@ h6 {
 h1 {
   font-size: 8rem;
   line-height: 5.5rem;
+  top: 10%;
+  position: relative;
 }
 
 h2 {
@@ -54,6 +56,9 @@ p.lead {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
   text-align: center;
+  position: relative;
+  top: 10%;
+  padding: 30px;
 }
 
 .social-icons {
@@ -183,45 +188,13 @@ a:hover, a:focus, a:active {
 }
 
 .image1 {
-  display: block;
-  width: 440px;
-  margin: auto;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-/* Container needed to position the overlay. Adjust the width as needed */
-.container {
-  position: relative;
-  width: 100%;
-}
-
-/* The overlay effect (full height and width) - lays on top of the container and over the image */
-area {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
+div.normal {
+  min-height: 100vh;
   width: auto;
-  height: auto;
-  overflow: hidden;
-  transform: scale(0);
-  transition: .3s ease;
-}
-
-/* When you mouse over the container, the overlay text will "zoom" in display */
-area:hover {
-  transform: scale(1);
-  color: red;
-}
-
-/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
